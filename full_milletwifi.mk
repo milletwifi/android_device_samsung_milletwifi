@@ -20,6 +20,6 @@ $(call inherit-product, device/samsung/milletwifi/device.mk)
 PRODUCT_DEVICE := milletwifi
 PRODUCT_NAME := full_milletwifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T530
+PRODUCT_MODEL := SM-T330
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := tablet

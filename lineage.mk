@@ -18,6 +18,6 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/milletwifi/full_milletwifi.mk)
 
-PRODUCT_RELEASE_NAME := SM-T530
+PRODUCT_RELEASE_NAME := SM-T330
 PRODUCT_DEVICE := milletwifi
 PRODUCT_NAME := lineage_milletwifi
