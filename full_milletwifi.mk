@@ -13,12 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit from matissewifi device
-$(call inherit-product, device/samsung/matissewifi/device.mk)
+# Inherit from milletwifi device
+$(call inherit-product, device/samsung/milletwifi/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := matissewifi
-PRODUCT_NAME := full_matissewifi
+PRODUCT_DEVICE := milletwifi
+PRODUCT_NAME := full_milletwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T530
 PRODUCT_MANUFACTURER := samsung

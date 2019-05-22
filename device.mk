@@ -16,13 +16,13 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-LOCAL_PATH := device/samsung/matissewifi
+LOCAL_PATH := device/samsung/milletwifi
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/matissewifi/matissewifi-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/milletwifi/milletwifi-vendor.mk)
 
 # Disable RIL
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -47,8 +47,8 @@ PRODUCT_COPY_FILES += \
     consumerir.default
 #    consumerir.msm8226 \
 
-# matisse-common
-$(call inherit-product, device/samsung/matisse-common/matisse.mk)
+# millet-common
+$(call inherit-product, device/samsung/millet-common/millet.mk)
 
 # DJABHipHop Builds(Personal Build)
 #DEVICE_SUPPORT_DJ :=true
