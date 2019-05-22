@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),matissewifi)
+ifeq ($(TARGET_DEVICE),milletwifi)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Create a link for the WCNSS config file, which ends up as a writable
 # version in /data/misc/wifi

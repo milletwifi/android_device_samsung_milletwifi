@@ -1,8 +1,8 @@
 [
   {
     "remote": "github",
-    "repository": "android_device_samsung_matisse-common",
-    "target_path": "device/samsung/matisse-common"
+    "repository": "android_device_samsung_millet-common",
+    "target_path": "device/samsung/millet-common"
     "revision": "cm-14.1"
   }
 ]

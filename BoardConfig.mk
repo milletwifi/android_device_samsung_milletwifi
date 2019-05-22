@@ -13,16 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from common matisse-common
--include device/samsung/matisse-common/BoardConfigCommon.mk
+# inherit from common millet-common
+-include device/samsung/millet-common/BoardConfigCommon.mk
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := matissewifi,matissewifiue,matissewi
+TARGET_OTA_ASSERT_DEVICE := milletwifi,milletwifiue,milletwi
 
-DEVICE_PATH := device/samsung/matissewifi
+DEVICE_PATH := device/samsung/milletwifi
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8226-sec_matissewifi_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8226-sec_milletwifi_defconfig
 
 # inherit from the proprietary version
--include vendor/samsung/matissewifi/BoardConfigVendor.mk
+-include vendor/samsung/milletwifi/BoardConfigVendor.mk
