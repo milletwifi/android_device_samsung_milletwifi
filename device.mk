@@ -54,4 +54,4 @@ $(call inherit-product, device/samsung/millet-common/millet.mk)
 #DEVICE_SUPPORT_DJ :=true
 
 # TODO: opengapps
-#$(call inherit-product, vendor/light/config/opengapps.mk)
+$(call inherit-product, vendor/light/config/opengapps.mk)
