@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/samsung/millet-common/millet.mk)
 
 # DJABHipHop Builds(Personal Build)
-#DEVICE_SUPPORT_DJ :=true
 
 # TODO: opengapps
 $(call inherit-product, vendor/Gapps-Preloader/opengapps.mk)
